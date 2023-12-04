@@ -1,28 +1,93 @@
 button{
     color:white;
-    font-size:.3in;
+    font-size:1vw;
     border-color:transparent;
     background-color:transparent;
     outline-style:solid;
     outline-color:white;
-    margin-left:.3in;
-   } 
+    margin-left:1vw;
+    margin-top:1vw;
+    width:auto;
+} 
    a{
     color:white;
-   }
+    font-family:Arial, Helvetica, sans-serif;
+}
    .MainTitle {
      text-align:center; 
      color:#ffffff; 
      font-style:italic; 
      font-family:'Times New Roman', Times, serif; 
-     padding-top: 1in; 
-     font-size:1in;
+     padding-top:4vw; 
+     font-size:4vw;
 }
 .SubMainTitle {
      text-align:center; 
      color:#ffffff; 
      font-style:italic; 
-     font-family:'Times New Roman', Times, serif; 
-     padding-top: 1in; 
-     font-size:1in;
+     font-family:Arial, Helvetica, sans-serif; 
+     padding-top: 4vh; 
+     font-size:4vw;
+     margin-bottom:10vh;
+     color:black;
+}
+.image {
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     width:20%;    
+}
+.image1 {
+     position:relative;
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     width:100%;     
+}
+.image img {
+     width:100%;
+     vertical-align:top;
+ }
+.image2 {
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     width:100%;    
+}
+.image3 {
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     width:50%;    
+}
+
+.bod {
+     background-image: url('https://imgur.com/h7xlDww.gif');
+     background-size: cover;
+     
+     
+     
+     height: 100vh;
+     padding:0;
+     margin:0;
+}
+.wrapper {
+     display: flex;
+     justify-content:space-evenly;
+     margin: auto;
+     background-color:white;
+}
+.container {
+     position: relative;
+     text-align: center;
+     color: white;
+     margin-left:auto;
+     margin-right:auto;
+     width:50%;  
+}
+.centered {
+     position: absolute;
+     top: 90%;
+     left: 10%;
+     transform: translate(-50%, -50%);
 }
